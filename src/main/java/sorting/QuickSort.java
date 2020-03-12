@@ -2,7 +2,6 @@ package sorting;
 
 public class QuickSort {
 
-
     private static int partition(int[] array, int startIdx, int endIdx){
         int pivot = array[endIdx];
         int leftBoundary = startIdx - 1;
@@ -25,17 +24,17 @@ public class QuickSort {
         array[j] = tmp;
     }
 
-    private static void doSort(int[] array, int low, int high){
+    private static void quickSort(int[] array, int low, int high){
 
         if(low<high){
             int pivot = partition(array, low, high);
-            doSort(array, low, pivot-1);
-            doSort(array, pivot + 1, high);
+            quickSort(array, low, pivot-1);
+            quickSort(array, pivot + 1, high);
         }
     }
 
     public static void sort(int[] array){
-        doSort(array, 0, array.length-1);
+        quickSort(array, 0, array.length-1);
     }
 
 }
