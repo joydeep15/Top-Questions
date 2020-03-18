@@ -1,2 +1,2 @@
 # Top-Questions
-GFG Questions (https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)
+[GFG Questions] (https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)
