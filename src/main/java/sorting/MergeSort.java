@@ -3,10 +3,11 @@ package sorting;
 public class MergeSort {
 
     int[] temp;
-    public void createTempArray(int length){
+    private void createTempArray(int length){
         temp = new int[length];
     }
     public  void sort(int[] array){
+        createTempArray(array.length);
         mergeSort(array, 0, array.length-1);
     }
 
