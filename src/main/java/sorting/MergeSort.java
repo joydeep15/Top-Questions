@@ -23,13 +23,6 @@ public class MergeSort {
     public void merge(int[] array, int low, int mid, int high) {
         // sorted from low->mid & mid+1 -> high
 
-        int leftListCount = mid - low + 1;
-        int rightListCount = high - mid - 1;
-
-        if(leftListCount < 1 || rightListCount < 0){
-            return;
-        }
-
         for(int i=low; i<=mid; i++){
             temp[i] = array[i];
         }
