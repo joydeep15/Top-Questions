@@ -40,7 +40,7 @@ public class TrappingWater {
 
             if(lmax > rmax){
                 totalWater += rmax - blocks[j];
-                j++;
+                j--;
             }else{
 
                 totalWater += lmax - blocks[i];
