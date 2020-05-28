@@ -1,5 +1,4 @@
 package recursion;
-
 import java.lang.*;
 import java.io.*;
 
@@ -52,28 +51,43 @@ class NumberOfPaths {
                 result=1;
             }
             else{
-                result=calculate(n, m);
+                result=calculateDP(n, m);
             }
             sb.append(result).append("\n");
         }
         System.out.println(sb);
     }
 
+    /**
+     * overflows while calculating factorial
+     * @param n
+     * @param m
+     * @return
+     */
     private static int calculate(int n, int m) {
         //calculate ncr
-        n--;
-        m--;
-        int num = factorial(n+m);
-        int denom = factorial(n) * factorial(m);
 
-        return num / denom;
-    }
+        int res = 1;
 
-    private static int factorial(int n) {
-        int res=1;
-        for (int i = 1; i <= n; i++) {
-            res *= i;
+        for(int i = n ; i<= m+n-2 ; i++){
+            res = (res*i) % 1000000007;
+            res = (res / (i - n +1))% 1000000007;
         }
         return res;
     }
+
+    private static int calculateDP(int n, int m){
+        // Create a 1D array to store results of subproblems
+        int[] dp = new int[n];
+        dp[0] = 1;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                dp[j] = (dp[j] + dp[j - 1])% 1000000007 ;
+            }
+        }
+
+        return dp[n - 1];
+    }
+
 }

@@ -3,8 +3,7 @@ package recursion;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Given an array of integers A and a sum B, find all unique combinations in A where the sum is equal to B.
@@ -67,7 +66,8 @@ public class CombinationSum2 {
             for (int i = 0; i < len; i++) {
                 blocks[i] = Integer.parseInt(elements[i]);
             }
-            Set<List<Integer>> result = generateCombinations(blocks);
+            int target = Integer.parseInt(bfr.readLine());
+            List<List<Integer>> result = generateCombinations(blocks,target);
             if(result.size() == 0){
                 sb.append("Empty\n");
                 continue;
@@ -78,16 +78,59 @@ public class CombinationSum2 {
                 for(Integer re : res){
                     sb.append(re).append(" ");
                 }
-                sb.append("\b").append(")");
+                sb.deleteCharAt(sb.length()-1);
+                sb.append(")");
             }
             sb.append("\n");
-
-
         }
+        System.out.println(sb);
 
     }
 
-    private static Set<List<Integer>> generateCombinations(int[] blocks) {
+    private static int sortList(List<Integer> a, List<Integer> b){
+
+        String aa = a.toString();
+        String bb = b.toString();
+
+        return aa.compareTo(bb);
+    }
+
+    private static List<List<Integer>> generateCombinations(int[] blocks, int target) {
+
+        Set<List<Integer>> res = new HashSet<>();
+
+        generateCombinations(blocks, res, Collections.emptyList(), 0, target);
+
+        List<List<Integer>> l = new ArrayList<>(res);
+        res.clear();
+        Comparator<List<Integer>> c = CombinationSum2::sortList;
+        l.sort(c);
+        return l;
+
+
+    }
+
+    private static void generateCombinations(int[] blocks, Set<List<Integer>> res, List<Integer> currentList, int idx, int target) {
+
+        if (target == 0) {
+            Collections.sort(currentList);
+            res.add(currentList);
+            return;
+        }
+
+        if(idx >= blocks.length || target < 0){
+            currentList.clear();
+            return;
+        }
+
+        List<Integer> takeList = new ArrayList<>(currentList);
+        takeList.add(blocks[idx]);
+        //take
+        generateCombinations(blocks, res, takeList, idx + 1, target - blocks[idx]);
+
+        //don't take
+        generateCombinations(blocks, res, currentList, idx + 1, target);
+
 
     }
 }

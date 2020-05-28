@@ -1,15 +1,15 @@
 package linkedList;
 
-class Node{
-    int data;
-    Node next;
-    Node(int d){
-        data=d;
-        next=null;
-    }
-}
-public class RotateList {
 
+public class RotateList {
+    class Node{
+        int data;
+        Node next;
+        Node(int d){
+            data=d;
+            next=null;
+        }
+    }
     public Node rotate(Node head, int k) {
         Node iterator = head;
         k--;
