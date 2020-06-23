@@ -29,6 +29,7 @@ public class TrappingWater {
 
     private static int trappedWater(int[] blocks) {
 
+        assert blocks.length > 2;
         int totalWater = 0;
 
         int i = 0, j = blocks.length - 1,lmax = -1, rmax = -1;
