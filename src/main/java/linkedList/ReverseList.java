@@ -2,11 +2,6 @@ package linkedList;
 
 public class ReverseList {
 
-    class Node {
-        int data;
-        Node next;
-        Node(int d)  { data = d;  next = null; }
-    }
     public Node reverseList(Node head) {
 
         if (head == null || head.next == null) {
