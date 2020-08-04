@@ -1,7 +1,7 @@
 package linkedList;
 
 public class RemoveLoop {
-
+//    https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1
     public static void removeLoop(Node head){
 
         Node traveller = head;
