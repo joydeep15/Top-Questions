@@ -1,114 +1,69 @@
 package linkedList;
 
-import java.util.Scanner;
 
 /**
- * Given a linked list of size N. The task is to reverse every k nodes (where k is an input to the function) in the linked list.
- *
- * Input:
- * First line of input contains number of testcases T. For each testcase, first line contains length of linked list and next line contains the linked list elements.
- *
- * Output:
- * For each testcase, there will be a single line of output which contains the linked list with every k group elements reversed.
- *
- * User Task:
- * The task is to complete the function reverse() which should reverse the linked list in group of size k.
- *
- * Expected Time Complexity : O(n)
- * Expected Auxilliary Space : O(1)
- *
- * Example:
- * Input:
- * 2
- * 8
- * 1 2 2 4 5 6 7 8
- * 4
- * 5
- * 1 2 3 4 5
- * 3
- *
- * Output:
- * 4 2 2 1 8 7 6 5
- * 3 2 1 5 4
- *
- * Explanation:
- * Testcase 1: Since, k = 4. So, we have to reverse everty group of two elements. Modified linked list is as 4, 2, 2, 1, 8, 7, 6, 5.
+ * https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
  */
 
+
+class LinkedLi{
+    Node head;
+    Node tail;
+    Node nextHead;
+
+    LinkedLi(Node head, Node tail, Node nextHead) {
+        this.head = head;
+        this.tail = tail;
+        this.nextHead = nextHead;
+    }
+    LinkedLi(){}
+}
 public class ReverseGroups {
-    static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
-
-        Node head = LinkedListHelper.createLinkedListFromUserInput(sc);
-        int k = sc.nextInt();
-        ReverseGroups rg = new ReverseGroups();
-        head = rg.reverse(head, k);
-        LinkedListHelper.printList(head);
-
-    }
-
-    static class Pair<T>{
-        T first;
-        T second;
-    }
-
-    public static Node reverse(Node node, int k)
+    public static Node  reverse(Node head, int k)
     {
-        assert k > 0;
-        if(k<2){
-            return node;
+        if (k < 2 || head.next == null) {
+            return head;
         }
 
-        Pair<Node> pp = reverseK(node, k);
-        Node retVal = pp.first;
+        LinkedLi intermediate = Kreverse(head, k);
+        Node retval = intermediate.head;
 
-        Pair<Node> Npp;
-
-        while(pp.second != null){
-            Npp = reverseK(pp.second.next, k);
-            pp.second.next = Npp.first;
-            pp = Npp;
+        while (intermediate.nextHead != null) {
+            LinkedLi nintermediate = Kreverse(intermediate.nextHead, k);
+            intermediate.tail.next = nintermediate.head;
+            intermediate = nintermediate;
         }
-        return retVal;
+
+        return retval;
     }
-    private static Pair<Node> reverseK(Node head, int k) {
 
-        if (head == null ) {
-            return new Pair<>();
+    private static LinkedLi Kreverse(Node head, int k) {
+
+        if (k < 2 || head.next == null) {
+            return new LinkedLi(head, head, null);
         }
 
-        if (head.next == null) {
-            Pair<Node> p = new Pair<>();
-            p.first = head;
-            p.second = null;
-            return p;
-        }
+        Node prev = null;
+        Node curr = head;
+        Node next = head.next;
 
-        Node prev = head;
-        Node curr = head.next;
-        Node after = head.next.next;
-        Node oldHead = head;
+        LinkedLi retVal = new LinkedLi();
+        retVal.tail = curr;
 
-        while (k > 1 && curr != null) {
+        while (curr != null && k != 0) {
             k--;
             curr.next = prev;
             prev = curr;
-            curr = after;
-
-            if (after != null) {
-                after = after.next;
-            }
+            curr = next;
+            if(next!=null)
+                next = next.next;
         }
 
-        oldHead.next = curr;
-        Pair<Node> pp = new Pair<>();
-
-        pp.first = prev; //head of new LL
-        pp.second = oldHead;// last node with K reversed
-        return pp;
+        retVal.head = prev;
+        retVal.nextHead = curr;
+        return retVal;
 
     }
-
 }
 
