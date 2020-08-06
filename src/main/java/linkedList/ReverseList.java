@@ -4,25 +4,23 @@ public class ReverseList {
 
     public static Node reverseList(Node head) {
 
+
         if (head == null || head.next == null) {
             return head;
         }
+        Node prev = null;
+        Node curr = head;
+        Node next = curr.next;
 
-        Node prev = head;
-        Node curr = head.next;
-        Node nxt = head.next.next;
-
-        while (curr!=null){
+        while (curr != null) {
             curr.next = prev;
             prev = curr;
-            curr = nxt;
-            if (nxt !=null) {
-                nxt = nxt.next;
+            curr = next;
+            if (next != null) {
+                next = next.next;
             }
         }
 
-        head.next = null;
         return prev;
-
     }
 }
