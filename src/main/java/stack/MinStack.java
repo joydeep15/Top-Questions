@@ -10,7 +10,7 @@ public class MinStack {
 
 
     /*returns min element from stack*/
-    int getMin()
+    public int getMin()
     {
         if (s.size() == 0) {
             return -1;
@@ -18,7 +18,7 @@ public class MinStack {
     }
 
     /*returns poped element from stack*/
-    int pop()
+    public int pop()
     {
         if (s.size() == 0) {
             return -1;
@@ -27,25 +27,24 @@ public class MinStack {
             return s.pop();
         } else {
             int retVal = minEle;
+            minEle = 2 * minEle - s.peek();
             s.pop();
-            minEle = 2 * minEle - retVal;
             return retVal;
         }
     }
 
     /*push element x into the stack*/
-    void push(int x)
+    public void push(int x)
     {
         if (s.size() == 0) {
             s.push(x);
             minEle = x ;
-        } else if (x > s.peek()) {
+        } else if (x > minEle) {
             s.push(x);
         } else {
-            minEle = x;
             s.push(2 * x - minEle);
+            minEle = x;
         }
-
 
     }
 
