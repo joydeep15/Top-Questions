@@ -1,6 +1,6 @@
 package linkedList;
 
-public class Stack {
+public class Stack<I extends Number> {
 
     Node top;
     int elecount = 0;

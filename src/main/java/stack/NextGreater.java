@@ -10,6 +10,7 @@ import java.util.Stack;
 
 public class NextGreater {
 
+//    https://practice.geeksforgeeks.org/problems/next-larger-element/0
     public static void main(String[] args) throws IOException {
         BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
 
