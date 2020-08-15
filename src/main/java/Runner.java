@@ -32,6 +32,8 @@ public class Runner {
         System.out.println(LRUCache.get(7));
         System.out.println(LRUCache.printCache());
 
+        DoublyLinkedList<Integer> dl = new DoublyLinkedList<>();
+
 
 
     }
