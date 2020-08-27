@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Graph<T> {
 
+    //All elements should be unique
     private Map<T, Set<T>> graphStore = new HashMap<>();
 
     public void addVertex(T vertex){

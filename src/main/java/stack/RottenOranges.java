@@ -8,6 +8,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+//https://leetcode.com/problems/rotting-oranges/
+//https://practice.geeksforgeeks.org/problems/rotten-oranges/0
 class Point{
     int x;
     int y;
