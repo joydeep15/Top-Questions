@@ -3,33 +3,35 @@
 
 In the words of Sanchez:
 
-> I'm pickle rick :cucumber:	
+> I'm pickle rick :cucumber:
 
-# Arrays
 
-- [ ] [Subarray with given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0)
-- [ ] [Count the triplets](https://practice.geeksforgeeks.org/problems/count-the-triplets/0)
-- [ ] [Kadane’s Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0)
-- [ ] [Missing number in array](https://practice.geeksforgeeks.org/problems/missing-number-in-array/0)
-- [ ] [Merge two sorted arrays](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays/0/)
-- [ ] [Rearrange array   alternatively](https://practice.geeksforgeeks.org/problems/-rearrange-array-alternately/0/)
-- [ ] [Number of pairs](https://practice.geeksforgeeks.org/problems/number-of-pairs/0/)
-- [ ] [Inversion of Array](https://practice.geeksforgeeks.org/problems/inversion-of-array/0/)
-- [ ] [Sort an array of 0s, 1s and 2s](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)
-- [ ] [Equilibrium point](https://practice.geeksforgeeks.org/problems/equilibrium-point/0)
-- [ ] [Leaders in an array](https://practice.geeksforgeeks.org/problems/leaders-in-an-array/0)
-- [ ] [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms/0)
-- [ ] [Reverse array in groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups/0)
-- [ ] [K’th smallest element](https://practice.geeksforgeeks.org/problems/kth-smallest-element/0)
-- [ ] [Trapping Rain Water](https://practice.geeksforgeeks.org/problems/trapping-rain-water/0)
-- [ ] [Pythagorean Triplet](https://practice.geeksforgeeks.org/problems/pythagorean-triplet/0)
-- [ ] [Chocolate Distribution Problem](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0)
-- [ ] [Stock buy and sell](https://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0)
-- [ ] [Element with left side smaller and right side greater](https://practice.geeksforgeeks.org/problems/unsorted-array/0)
-- [ ] [Convert array into Zig-Zag fashion](https://practice.geeksforgeeks.org/problems/convert-array-into-zig-zag-fashion/0)
-- [ ] [Last Index of 1](https://practice.geeksforgeeks.org/problems/last-index-of-1/0)
-- [ ] [Spirally traversing a matrix](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0)
-- [ ] [Largest Number formed from an Array](https://practice.geeksforgeeks.org/problems/largest-number-formed-from-an-array/0)
+
+# Arrays :heavy_check_mark:
+
+- [x] [Subarray with given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0)
+- [x] [Count the triplets](https://practice.geeksforgeeks.org/problems/count-the-triplets/0)
+- [x] [Kadane’s Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0)
+- [x] [Missing number in array](https://practice.geeksforgeeks.org/problems/missing-number-in-array/0)
+- [x] [Merge two sorted arrays](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays/0/)
+- [x] [Rearrange array   alternatively](https://practice.geeksforgeeks.org/problems/-rearrange-array-alternately/0/)
+- [x] [Number of pairs](https://practice.geeksforgeeks.org/problems/number-of-pairs/0/)
+- [x] [Inversion of Array](https://practice.geeksforgeeks.org/problems/inversion-of-array/0/)
+- [x] [Sort an array of 0s, 1s and 2s](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)
+- [x] [Equilibrium point](https://practice.geeksforgeeks.org/problems/equilibrium-point/0)
+- [x] [Leaders in an array](https://practice.geeksforgeeks.org/problems/leaders-in-an-array/0)
+- [x] [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms/0)
+- [x] [Reverse array in groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups/0)
+- [x] [K’th smallest element](https://practice.geeksforgeeks.org/problems/kth-smallest-element/0)
+- [x] [Trapping Rain Water](https://practice.geeksforgeeks.org/problems/trapping-rain-water/0)
+- [x] [Pythagorean Triplet](https://practice.geeksforgeeks.org/problems/pythagorean-triplet/0)
+- [x] [Chocolate Distribution Problem](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0)
+- [x] [Stock buy and sell](https://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0)
+- [x] [Element with left side smaller and right side greater](https://practice.geeksforgeeks.org/problems/unsorted-array/0)
+- [x] [Convert array into Zig-Zag fashion](https://practice.geeksforgeeks.org/problems/convert-array-into-zig-zag-fashion/0)
+- [x] [Last Index of 1](https://practice.geeksforgeeks.org/problems/last-index-of-1/0)
+- [x] [Spirally traversing a matrix](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0)
+- [x] [Largest Number formed from an Array](https://practice.geeksforgeeks.org/problems/largest-number-formed-from-an-array/0)
 
 # String
 
@@ -47,26 +49,26 @@ In the words of Sanchez:
 - [ ] [Implement strstr](https://practice.geeksforgeeks.org/problems/implement-strstr/1)
 - [ ] [Longest Common Prefix](https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array/0)
 
-# LinkedList
+# LinkedList :heavy_check_mark:
 
-- [ ] [Finding middle element in a linked list](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1)
-- [ ] [Reverse a linked list](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1)
-- [ ] [Rotate a Linked List](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1)
-- [ ] [Reverse a Linked List in groups of given size](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1)
-- [ ] [Intersection point in Y shaped linked lists](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/)
-- [ ] [Detect Loop in linked list](https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1)
-- [ ] [Remove loop in Linked List](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1)
-- [ ] [n’th node from end of linked list](https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1)
-- [ ] [Flattening a Linked List](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1)
-- [ ] [Merge two sorted linked lists](https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1)
-- [ ] [Intersection point of two Linked Lists](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1)
-- [ ] [Pairwise swap of a linked list](https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
-- [ ] [Add two numbers represented by linked lists](https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1)
-- [ ] [Check if Linked List is Palindrome](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1)
-- [ ] [Implement Queue using Linked List](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1)
-- [ ] [Implement Stack using Linked List](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1)
-- [ ] [Given a linked list of 0s, 1s and 2s, sort it](https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1)
-- [ ] [Delete without head pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1)
+- [x] [Finding middle element in a linked list](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1)
+- [x] [Reverse a linked list](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1)
+- [x] [Rotate a Linked List](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1)
+- [x] [Reverse a Linked List in groups of given size](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1)
+- [x] [Intersection point in Y shaped linked lists](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/)
+- [x] [Detect Loop in linked list](https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1)
+- [x] [Remove loop in Linked List](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1)
+- [x] [n’th node from end of linked list](https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1)
+- [x] [Flattening a Linked List](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1)
+- [x] [Merge two sorted linked lists](https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1)
+- [x] [Intersection point of two Linked Lists](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1)
+- [x] [Pairwise swap of a linked list](https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
+- [x] [Add two numbers represented by linked lists](https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1)
+- [x] [Check if Linked List is Palindrome](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1)
+- [x] [Implement Queue using Linked List](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1)
+- [x] [Implement Stack using Linked List](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1)
+- [x] [Given a linked list of 0s, 1s and 2s, sort it](https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1)
+- [x] [Delete without head pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1)
 
 # Stack
 
@@ -194,17 +196,17 @@ In the words of Sanchez:
 - [ ] [Optimal Strategy for a Game](https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game/0)
 - [ ] [Shortest Common Supersequence](https://practice.geeksforgeeks.org/problems/shortest-common-supersequence/0)
 
-# DC
+# Divide and Conquer :hourglass_flowing_sand:
 
-- [ ] [Find the element that appears once in sorted array](https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array/0)
-- [ ] [Search in a Rotated Array](https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0)
-- [ ] [Binary Search](https://practice.geeksforgeeks.org/problems/binary-search/1)
-- [ ] [Sum of Middle Elements of two sorted arrays](https://practice.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays/0)
-- [ ] [Quick Sort](https://practice.geeksforgeeks.org/problems/quick-sort/1)
-- [ ] [Merge Sort](https://practice.geeksforgeeks.org/problems/merge-sort/1)
+- [x] [Find the element that appears once in sorted array](https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array/0)
+- [x] [Search in a Rotated Array](https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0)
+- [x] [Binary Search](https://practice.geeksforgeeks.org/problems/binary-search/1)
+- [x] [Sum of Middle Elements of two sorted arrays](https://practice.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays/0)
+- [x] [Quick Sort](https://practice.geeksforgeeks.org/problems/quick-sort/1)
+- [x] [Merge Sort](https://practice.geeksforgeeks.org/problems/merge-sort/1)
 - [ ] [K-th element of two sorted Arrays](https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0)
 
-# BT
+# Backtracking
 
 - [ ] [N-Queen Problem](https://practice.geeksforgeeks.org/problems/n-queen-problem/0)
 - [ ] [Solve the Sudoku](https://practice.geeksforgeeks.org/problems/solve-the-sudoku/0)
@@ -261,4 +263,3 @@ In the words of Sanchez:
 - [ ] [Bottom View of Binary Tree](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
 - [ ] [Lowest Common Ancestor in a Binary Tree](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
 - [ ] [Binary to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1)
-
