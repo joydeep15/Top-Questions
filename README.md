@@ -5,7 +5,7 @@ In the words of Sanchez:
 
 > I'm pickle rick :cucumber:	
 
-# arrays
+# Arrays
 
 - [ ] [Subarray with given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0)
 - [ ] [Count the triplets](https://practice.geeksforgeeks.org/problems/count-the-triplets/0)
@@ -31,7 +31,7 @@ In the words of Sanchez:
 - [ ] [Spirally traversing a matrix](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0)
 - [ ] [Largest Number formed from an Array](https://practice.geeksforgeeks.org/problems/largest-number-formed-from-an-array/0)
 
-# string
+# String
 
 - [ ] [Reverse words in a given string](https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string/0)
 - [ ] [Permutations of a given string](https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0)
@@ -68,7 +68,7 @@ In the words of Sanchez:
 - [ ] [Given a linked list of 0s, 1s and 2s, sort it](https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1)
 - [ ] [Delete without head pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1)
 
-# stack
+# Stack
 
 - [ ] [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0)
 - [ ] [Next larger element](https://practice.geeksforgeeks.org/problems/next-larger-element/0)
@@ -81,7 +81,7 @@ In the words of Sanchez:
 - [ ] [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges/0)
 - [ ] [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0)
 
-# trees
+# Trees
 
 - [ ] [Print Left View of Binary Tree](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
 - [ ] [Check for BST](https://practice.geeksforgeeks.org/problems/check-for-bst/1)
@@ -100,7 +100,7 @@ In the words of Sanchez:
 - [ ] [Check if given Binary Tree is Height Balanced or Not](https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1)
 - [ ] [Serialize and Deserialize a Binary Tree](https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1)
 
-# heap
+# Heap
 
 - [ ] [Find median in a stream](https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0)
 - [ ] [Heap Sort](https://practice.geeksforgeeks.org/problems/heap-sort/1)
@@ -109,16 +109,13 @@ In the words of Sanchez:
 - [ ] [Kth largest element in a stream](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream/0)
 - [ ] [Merge K sorted linked lists](https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1)
 - [ ] [Kth largest element in a stream](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream/0)
-
-
-
 - [ ] [Flood fill Algorithm](https://practice.geeksforgeeks.org/problems/flood-fill-algorithm/0)
 - [ ] [Number of paths](https://practice.geeksforgeeks.org/problems/number-of-paths/0)
 - [ ] [Combination Sum – Part 2](https://practice.geeksforgeeks.org/problems/combination-sum-part-2/0)
 - [ ] [Special Keyboard](https://practice.geeksforgeeks.org/problems/special-keyboard/0)
 - [ ] [Josephus problem](https://practice.geeksforgeeks.org/problems/josephus-problem/1)
 
-# hashing
+# Hashing
 
 - [ ] [Relative Sorting](https://practice.geeksforgeeks.org/problems/relative-sorting/0)
 - [ ] [Sorting Elements of an Array by Frequency](https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0)
@@ -140,7 +137,7 @@ In the words of Sanchez:
 - [ ] [First element to occur k times](https://practice.geeksforgeeks.org/problems/first-element-to-occur-k-times/0)
 - [ ] [Check if frequencies can be equal](https://practice.geeksforgeeks.org/problems/check-frequencies/0)
 
-# graph
+# Graph
 
 - [ ] [Depth First Traversal](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)
 - [ ] [Breadth First Traversal](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
@@ -215,7 +212,7 @@ In the words of Sanchez:
 - [ ] [Word Boggle](https://practice.geeksforgeeks.org/problems/word-boggle/0)
 - [ ] [Generate IP Addresses](https://practice.geeksforgeeks.org/problems/generate-ip-addresses/1)
 
-# bits
+# Bits
 
 - [ ] [Find first set bit](https://practice.geeksforgeeks.org/problems/find-first-set-bit/0)
 - [ ] [Rightmost different bit](https://practice.geeksforgeeks.org/problems/rightmost-different-bit/0)
