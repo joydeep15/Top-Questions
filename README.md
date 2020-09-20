@@ -1,7 +1,11 @@
 # Top-Questions
 [GFG Questions](https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)
 
-#arrays
+In the words of Sanchez:
+
+> I'm pickle rick :cucumber:	
+
+# arrays
 
 - [ ] [Subarray with given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0)
 - [ ] [Count the triplets](https://practice.geeksforgeeks.org/problems/count-the-triplets/0)
@@ -27,7 +31,7 @@
 - [ ] [Spirally traversing a matrix](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0)
 - [ ] [Largest Number formed from an Array](https://practice.geeksforgeeks.org/problems/largest-number-formed-from-an-array/0)
 
-#string
+# string
 
 - [ ] [Reverse words in a given string](https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string/0)
 - [ ] [Permutations of a given string](https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0)
@@ -43,7 +47,7 @@
 - [ ] [Implement strstr](https://practice.geeksforgeeks.org/problems/implement-strstr/1)
 - [ ] [Longest Common Prefix](https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array/0)
 
-#LinkedList
+# LinkedList
 
 - [ ] [Finding middle element in a linked list](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1)
 - [ ] [Reverse a linked list](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1)
@@ -64,7 +68,7 @@
 - [ ] [Given a linked list of 0s, 1s and 2s, sort it](https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1)
 - [ ] [Delete without head pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1)
 
-#stack
+# stack
 
 - [ ] [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0)
 - [ ] [Next larger element](https://practice.geeksforgeeks.org/problems/next-larger-element/0)
@@ -77,7 +81,7 @@
 - [ ] [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges/0)
 - [ ] [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0)
 
-#trees
+# trees
 
 - [ ] [Print Left View of Binary Tree](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
 - [ ] [Check for BST](https://practice.geeksforgeeks.org/problems/check-for-bst/1)
@@ -96,7 +100,7 @@
 - [ ] [Check if given Binary Tree is Height Balanced or Not](https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1)
 - [ ] [Serialize and Deserialize a Binary Tree](https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1)
 
-#heap
+# heap
 
 - [ ] [Find median in a stream](https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0)
 - [ ] [Heap Sort](https://practice.geeksforgeeks.org/problems/heap-sort/1)
@@ -114,7 +118,7 @@
 - [ ] [Special Keyboard](https://practice.geeksforgeeks.org/problems/special-keyboard/0)
 - [ ] [Josephus problem](https://practice.geeksforgeeks.org/problems/josephus-problem/1)
 
-#hashing
+# hashing
 
 - [ ] [Relative Sorting](https://practice.geeksforgeeks.org/problems/relative-sorting/0)
 - [ ] [Sorting Elements of an Array by Frequency](https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0)
@@ -136,7 +140,7 @@
 - [ ] [First element to occur k times](https://practice.geeksforgeeks.org/problems/first-element-to-occur-k-times/0)
 - [ ] [Check if frequencies can be equal](https://practice.geeksforgeeks.org/problems/check-frequencies/0)
 
-#graph
+# graph
 
 - [ ] [Depth First Traversal](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)
 - [ ] [Breadth First Traversal](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
@@ -155,7 +159,7 @@
 - [ ] [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1)
 - [ ] [Snake and Ladder Problem](https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem/0)
 
-#Greedy
+# Greedy
 
 - [ ] [Activity Selection](https://practice.geeksforgeeks.org/problems/activity-selection/0)
 - [ ] [N meetings in one room](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)
@@ -170,7 +174,7 @@
 - [ ] [Shop in Candy Store](https://practice.geeksforgeeks.org/problems/shop-in-candy-store/0)
 - [ ] [Geek collects the balls](https://practice.geeksforgeeks.org/problems/geek-collects-the-balls/0)
 
-#DP
+# DP
 
 - [ ] [Minimum Operations](https://practice.geeksforgeeks.org/problems/find-optimum-operation/0)
 - [ ] [Max length chain](https://practice.geeksforgeeks.org/problems/max-length-chain/1)
@@ -193,7 +197,7 @@
 - [ ] [Optimal Strategy for a Game](https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game/0)
 - [ ] [Shortest Common Supersequence](https://practice.geeksforgeeks.org/problems/shortest-common-supersequence/0)
 
-#DC
+# DC
 
 - [ ] [Find the element that appears once in sorted array](https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array/0)
 - [ ] [Search in a Rotated Array](https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0)
@@ -203,7 +207,7 @@
 - [ ] [Merge Sort](https://practice.geeksforgeeks.org/problems/merge-sort/1)
 - [ ] [K-th element of two sorted Arrays](https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0)
 
-#BT
+# BT
 
 - [ ] [N-Queen Problem](https://practice.geeksforgeeks.org/problems/n-queen-problem/0)
 - [ ] [Solve the Sudoku](https://practice.geeksforgeeks.org/problems/solve-the-sudoku/0)
@@ -211,7 +215,7 @@
 - [ ] [Word Boggle](https://practice.geeksforgeeks.org/problems/word-boggle/0)
 - [ ] [Generate IP Addresses](https://practice.geeksforgeeks.org/problems/generate-ip-addresses/1)
 
-#bits
+# bits
 
 - [ ] [Find first set bit](https://practice.geeksforgeeks.org/problems/find-first-set-bit/0)
 - [ ] [Rightmost different bit](https://practice.geeksforgeeks.org/problems/rightmost-different-bit/0)
@@ -228,18 +232,17 @@
 - [ ] [Alone in a couple](https://practice.geeksforgeeks.org/problems/alone-in-couple/0)
 - [ ] [Maximum subset XOR](https://practice.geeksforgeeks.org/problems/maximum-subset-xor/1)
 
-#More Questions on Arrays
+# More Questions on Arrays
 
 - [ ] [Find Missing And Repeating](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating/0)
 - [ ] [Maximum Index](https://practice.geeksforgeeks.org/problems/maximum-index/0)
 - [ ] [Consecutive 1’s not allowed](https://practice.geeksforgeeks.org/problems/consecutive-1s-not-allowed/0)
-<a href="https://practice.geeksforgeeks.org/problems/majority-element/0" rel="noopener" target="_blank">Majority Element</a></li>
 - [ ] [Two numbers with sum closest to zero](https://practice.geeksforgeeks.org/problems/two-numbers-with-sum-closest-to-zero/0)
 - [ ] [Nuts and Bolts Problem](https://practice.geeksforgeeks.org/problems/nuts-and-bolts-problem/0)
 - [ ] [Boolean Matrix Problem](https://practice.geeksforgeeks.org/problems/boolean-matrix-problem/0)
 - [ ] [Smallest Positive missing number](https://practice.geeksforgeeks.org/problems/smallest-positive-missing-number/0)
 
-#More Questions on Strings
+# More Questions on Strings
 
 - [ ] [Most frequent word in an array of strings](https://practice.geeksforgeeks.org/problems/most-frequent-word-in-an-array-of-strings/0)
 - [ ] [CamelCase Pattern Matching](https://practice.geeksforgeeks.org/problems/camelcase-pattern-matching/0)
@@ -253,12 +256,12 @@
 - [ ] [Repeated Character](https://practice.geeksforgeeks.org/problems/repeated-character/0)
 - [ ] [Remove common characters and concatenate](https://practice.geeksforgeeks.org/problems/remove-common-characters-and-concatenate/0)
 - [ ] [Geek and its Colored Strings](https://practice.geeksforgeeks.org/problems/geek-and-its-colored-strings/0)
-<a href="https://practice.geeksforgeeks.org/problems/second-most-repeated-string-in-a-sequence/0" rel="noopener" target="_blank">Second most repeated string in a sequence</a></li>
 
-#More Questions on Trees
+# More Questions on Trees
 
 - [ ] [Mirror Tree](https://practice.geeksforgeeks.org/problems/mirror-tree/1)
 - [ ] [Longest consecutive sequence in Binary tree](https://practice.geeksforgeeks.org/problems/longest-consecutive-sequence-in-binary-tree/1)
 - [ ] [Bottom View of Binary Tree](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
 - [ ] [Lowest Common Ancestor in a Binary Tree](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
 - [ ] [Binary to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1)
+
