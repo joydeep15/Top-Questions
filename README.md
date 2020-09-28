@@ -206,9 +206,9 @@ In the words of Sanchez:
 - [x] [Merge Sort](https://practice.geeksforgeeks.org/problems/merge-sort/1)
 - [ ] [K-th element of two sorted Arrays](https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0)
 
-# Backtracking
+# Backtracking :hourglass_flowing_sand:
 
-- [ ] [N-Queen Problem](https://practice.geeksforgeeks.org/problems/n-queen-problem/0)
+- [x] [N-Queen Problem](https://practice.geeksforgeeks.org/problems/n-queen-problem/0)
 - [ ] [Solve the Sudoku](https://practice.geeksforgeeks.org/problems/solve-the-sudoku/0)
 - [ ] [Rat in a Maze Problem](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
 - [ ] [Word Boggle](https://practice.geeksforgeeks.org/problems/word-boggle/0)
