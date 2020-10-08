@@ -22,7 +22,6 @@ enum Braces{
     public String getOpening() {
         return opening;
     }
-
     public String getClosing() {
         return closing;
     }
@@ -69,17 +68,13 @@ public class Parenthesis {
     }
 
     private static Braces getBraceFamily(String c) {
-
-        if (c.equals(Braces.CURLY.getOpening()) || c.equals(Braces.CURLY.getClosing())) {
-            return Braces.CURLY;
-        } else if (c.equals(Braces.ROUND.getOpening()) || c.equals(Braces.ROUND.getClosing())) {
-            return Braces.ROUND;
-        } else if (c.equals(Braces.SQUARE.getOpening()) || c.equals(Braces.SQUARE.getClosing())) {
-            return Braces.SQUARE;
-        }else
-            return Braces.INVALID;
+        for (Braces b : Braces.values()) {
+            if (c.equals(b.getOpening()) || c.equals(b.getClosing())) {
+                return b;
+            }
+        }
+        return Braces.INVALID;
     }
-
 
 }
 

@@ -34,38 +34,86 @@ public class SolveSudoku {
                 {'5', '3', '4', '6', '7', '8', '9', '1', '2'},
                 {'6', '7', '2', '1', '9', '5', '3', '4', '8'},
                 {'1', '9', '8', '3', '4', '2', '5', '6', '7'},
-                {'8', '5', '9', '7', '6', '1', '4', '2', '3'},
-                {'4', '2', '6', '8', '5', '3', '7', '9', '.'},
+                {'8', '5', '9', '7', '6', '1', '4', '.', '.'},
+                {'4', '2', '6', '8', '5', '3', '7', '.', '.'},
                 {'7', '1', '3', '9', '2', '4', '8', '5', '6'},
                 {'9', '6', '1', '5', '3', '7', '2', '8', '4'},
                 {'2', '8', '7', '4', '1', '9', '6', '3', '5'},
                 {'3', '4', '5', '2', '8', '6', '1', '7', '9'}
         };
-        solveSudoku(PartiallySolved);
+        solveSudoku(solved);
+        printBoard(solved);
 
     }
 
     private static void solveSudoku(char[][] board) {
 
+        //check if board is solved
+        if (isSolved(board)) {
+            return;
+        }
+
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
-                solveSudoku(board, i, j);
 
+                if (board[i][j] == '.') {
+                    solveSudoku(board, i, j);
+                }
             }
         }
+    }
+
+    private static boolean isSolved(char[][] board) {
+
+        for (char[] row : board) {
+            for (char item : row) {
+                if (item == '.') {
+                    return false;
+                }
+            }
+        }
+        return true;
+
     }
 
     private static void solveSudoku(char[][] board, int row, int col) {
 
         for (int i = 1; i <= 9; i++) {
             if (isSafe(board, row, col, i)) {
-                board[row][col] = (char) i;
+                board[row][col] = (char) ('0' +  i);
+                solveSudoku(board);
             }
         }
     }
 
-    private static boolean isSafe(char[][] board, int row, int col, int i) {
-        return false;
+    private static boolean isSafe(char[][] board, int row, int col, int pos) {
+
+        char warning = (char) ('9' - pos);
+
+        for (int j = 0; j < board[row].length; j++) {
+            if (board[row][j] == warning) {
+                return false;
+            }
+        }
+
+        for (int i = 0; i < board.length; i++) {
+            if (board[i][col] == warning) {
+                return false;
+            }
+        }
+
+        //check the grid
+
+        for (int i = (row / 3) * 3; i <= (row / 3) * 3 + 2; i++) {
+            for (int j = (row / 3) * 3; j <= (row / 3) * 3 + 2; j++) {
+
+                if (board[i][j] == warning) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
     }
 
     private static void printBoard(char[][] board) {

@@ -70,18 +70,18 @@ In the words of Sanchez:
 - [x] [Given a linked list of 0s, 1s and 2s, sort it](https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1)
 - [x] [Delete without head pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1)
 
-# Stack
+# Stack :heavy_check_mark:
 
-- [ ] [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0)
-- [ ] [Next larger element](https://practice.geeksforgeeks.org/problems/next-larger-element/0)
-- [ ] [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1)
-- [ ] [Stack using two queues](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)
-- [ ] [Get minimum element from stack](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1)
-- [ ] [LRU Cache](https://practice.geeksforgeeks.org/problems/lru-cache/1)
-- [ ] [Circular tour](https://practice.geeksforgeeks.org/problems/circular-tour/1)
-- [ ] [First non-repeating character in a stream](https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0)
-- [ ] [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges/0)
-- [ ] [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0)
+- [x] [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0)
+- [x] [Next larger element](https://practice.geeksforgeeks.org/problems/next-larger-element/0)
+- [x] [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1)
+- [x] [Stack using two queues](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)
+- [x] [Get minimum element from stack](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1)
+- [x] [LRU Cache](https://practice.geeksforgeeks.org/problems/lru-cache/1)
+- [x] [Circular tour](https://practice.geeksforgeeks.org/problems/circular-tour/1)
+- [x] [First non-repeating character in a stream](https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0)
+- [x] [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges/0)
+- [x] [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0)
 
 # Trees
 
