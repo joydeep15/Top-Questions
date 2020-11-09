@@ -7,12 +7,8 @@ import java.util.List;
 
 
 public class RightViewTree {
-}
 
-
-class Solution {
     int maxLevel = -1;
-
     public List<Integer> rightSideView(TreeNode root) {
         maxLevel = -1;
         List<Integer> result = new ArrayList<>();
