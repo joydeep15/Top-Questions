@@ -11,7 +11,6 @@ public class RelativeSort {
 
         List<Integer> arr3 = relativeSort(arr1, arr2);
         arr3.forEach(a -> System.out.print(a + " "));
-
     }
 
     private static List<Integer> relativeSort(List<Integer> arr1, List<Integer> arr2) {
