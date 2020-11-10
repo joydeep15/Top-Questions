@@ -19,36 +19,8 @@ public class Node {
         return Objects.hash(data, next);
     }
 
-    public static void printNodes(Node h){
-        while (h != null) {
-            System.out.print(h.data+"->");
-            h=h.next;
-        }
-        System.out.print("null\n");
-
-    }
-
-    public static Node createLinkedList(int... nums) {
-        if (nums.length < 1) {
-            return null;
-        }
-
-        Node head = new Node(nums[0]);
-        Node traveller = head;
-        for (int i = 1; i < nums.length ; i++) {
-            traveller.next = new Node(nums[i]);
-            traveller = traveller.next;
-        }
-
-        return head;
-    }
-
-    public static  List<Integer> convertCollection(Node h, List<Integer> x) {
-
-        while (h != null) {
-            x.add(h.data);
-            h = h.next;
-        }
-        return x;
+    @Override
+    public String toString() {
+        return data + " -> " + next;
     }
 }
