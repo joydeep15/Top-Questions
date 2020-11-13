@@ -11,13 +11,13 @@ import java.util.LinkedList;
 public class MaximumRunningSubarray {
     public static void main(String[] args) throws IOException {
 
-        int t = BReader.getIntLine();
+        int t = BReader.getInteger();
         StringBuilder sb = new StringBuilder();
         while (t > 0) {
             t--;
-            int[] dims = BReader.getIntLine("\\s+");
+            int[] dims = BReader.getIntegerArray("\\s+");
 
-            int[] elements = BReader.getIntLine("\\s+");
+            int[] elements = BReader.getIntegerArray("\\s+");
             sb.append(getMaxRunning(elements, dims[1])).append("\n");
         }
 

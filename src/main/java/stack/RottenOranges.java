@@ -3,7 +3,6 @@ package stack;
 import utilities.BReader;
 
 import java.io.IOException;
-import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -22,15 +21,15 @@ class Point{
 public class RottenOranges {
 
     public static void main(String[] args) throws IOException {
-        int t = BReader.getIntLine();
+        int t = BReader.getInteger();
         StringBuilder sb = new StringBuilder();
         while (t != 0) {
             t--;
-            int[] dims = BReader.getIntLine("\\s+");
+            int[] dims = BReader.getIntegerArray("\\s+");
 
             int[][] grid = new int[dims[0]][dims[1]];
 
-            int[] elements = BReader.getIntLine("\\s+");
+            int[] elements = BReader.getIntegerArray("\\s+");
 
             for (int i = 0; i < dims[0]; i++) {
                 for (int j = 0; j < dims[1]; j++) {

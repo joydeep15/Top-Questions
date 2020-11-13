@@ -8,19 +8,19 @@ public class KthElementSortedArray {
 //    https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0
 
     public static void main(String[] args) throws IOException {
-        int t = BReader.getIntLine();
+        int t = BReader.getInteger();
 
         StringBuilder sb = new StringBuilder();
         while (t != 0) {
             t--;
 
-            int[] ar = BReader.getIntLine("\\s+");
+            int[] ar = BReader.getIntegerArray("\\s+");
             int n = ar[0];
             int m = ar[1];
             int k = ar[2];
 
-            int[] a = BReader.getIntLine("\\s+");
-            int[] b = BReader.getIntLine("\\s+");
+            int[] a = BReader.getIntegerArray("\\s+");
+            int[] b = BReader.getIntegerArray("\\s+");
 
             sb.append(getKthElement(a, b, k)).append("\n");
 

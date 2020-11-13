@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class BReader {
     static BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
 
-    public static int getIntLine() throws IOException {
+    public static int getInteger() throws IOException {
         return Integer.parseInt(bfr.readLine().trim());
     }
 
@@ -16,9 +16,17 @@ public class BReader {
         return bfr.readLine().trim().split(delimiter);
     }
 
-    public static int[] getIntLine(String delimiter) throws IOException {
+    public static int[] getIntegerArray(String delimiter) throws IOException {
         String[] temp = getStringLine(delimiter);
         return Arrays.stream(temp).mapToInt(Integer::parseInt).toArray();
+    }
+
+    public static BufferedReader getReader() {
+        return bfr;
+    }
+
+    public static String getString() throws IOException {
+        return bfr.readLine().trim();
     }
 
 }

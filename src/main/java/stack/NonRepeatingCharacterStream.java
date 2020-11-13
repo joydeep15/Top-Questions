@@ -13,12 +13,12 @@ public class NonRepeatingCharacterStream {
 
     public static void main(String[] args) throws IOException {
 
-        int t = BReader.getIntLine();
+        int t = BReader.getInteger();
         StringBuilder sb = new StringBuilder();
         while (t != 0) {
             t--;
 
-            int n = BReader.getIntLine();
+            int n = BReader.getInteger();
             String[] charStream = BReader.getStringLine("\\s+");
             sb.append(getNonRepeating(charStream));
             sb.append("\n");

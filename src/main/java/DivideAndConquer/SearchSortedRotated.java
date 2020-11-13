@@ -8,13 +8,13 @@ public class SearchSortedRotated {
 //    https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
 //https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0
     public static void main(String[] args) throws IOException {
-        int t = BReader.getIntLine();
+        int t = BReader.getInteger();
         StringBuilder sb = new StringBuilder();
         while (t != 0) {
             t--;
-            int el = BReader.getIntLine();
-            int[] elms = BReader.getIntLine("\\s+");
-            int target = BReader.getIntLine();
+            int el = BReader.getInteger();
+            int[] elms = BReader.getIntegerArray("\\s+");
+            int target = BReader.getInteger();
             sb.append(search(elms, target)).append("\n");
 
         }
