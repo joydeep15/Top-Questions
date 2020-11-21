@@ -2,7 +2,6 @@ package trees;
 
 import utilities.Node;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 class Solution {
@@ -22,7 +21,7 @@ class Solution {
         }
 
         if (level > maxLevel) {
-            result.add(root.data);
+            result.add(root.val);
             maxLevel = level;
         }
 
