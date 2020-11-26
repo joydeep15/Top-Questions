@@ -16,16 +16,5 @@ public class Runner {
 
     public static void main(String[] args) {
 
-        PriorityQueue<Integer> p = new PriorityQueue<Integer>((a,b) -> b-a){{
-            add(1);
-            add(257);
-            add(-12);
-        }};
-
-        while (!p.isEmpty()) {
-            System.out.println(p.poll());
-        }
-
-
     }
 }
