@@ -1,13 +1,7 @@
-import backtracking.NQueens;
-import utilities.Graph;
-import utilities.ResourceReader;
-import utilities.URLDecode;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.concurrent.atomic.AtomicReference;
+import sorting.MergeSort;
+import stack.SumOfSubArrayMinimums;
+
 
 public class Runner {
     public static int compare(Integer o1, Integer o2) {
@@ -15,6 +9,10 @@ public class Runner {
     }
 
     public static void main(String[] args) {
+
+        SumOfSubArrayMinimums s = new SumOfSubArrayMinimums();
+        int[] arr = {11,81,94,43,3};
+        System.out.println(s.sumSubarrayMins(arr));
 
     }
 }

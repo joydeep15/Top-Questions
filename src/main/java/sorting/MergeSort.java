@@ -3,10 +3,17 @@ package sorting;
 public class MergeSort {
 
     int[] temp;
+    int swaps=0;
+
+    public int getSwaps() {
+        return swaps;
+    }
+
     private void createTempArray(int length){
         temp = new int[length];
     }
     public  void sort(int[] array){
+        swaps = 0;
         createTempArray(array.length);
         mergeSort(array, 0, array.length-1);
     }
@@ -42,6 +49,7 @@ public class MergeSort {
             }else{
                 array[k] = temp[rightIterator];
                 rightIterator++;
+                swaps+= mid - leftIterator + 1;
             }
         }
 
