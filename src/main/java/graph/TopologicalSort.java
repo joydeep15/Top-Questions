@@ -7,6 +7,9 @@ import java.util.*;
 //https://www.geeksforgeeks.org/topological-sorting/
 public class TopologicalSort {
 
+    enum State{
+        UNBUILT, BUILDING, BUILT;
+    }
     public static void main(String[] args) {
 
         List<GraphNode<Integer>> nodes = new ArrayList<>();
@@ -27,6 +30,7 @@ public class TopologicalSort {
         n3.getEdges().add(n1);
 
         n2.getEdges().add(n3);
+//        n2.getEdges().add(n5); //uncomment for cycle test
 
         nodes.add(n5);
         nodes.add(n4);
@@ -35,22 +39,29 @@ public class TopologicalSort {
         nodes.add(n1);
         nodes.add(n0);
 
-//        Collections.reverse(nodes);
         System.out.println(topoLogicalSort(nodes));
-
     }
 
     private static String topoLogicalSort(List<GraphNode<Integer>> nodes) {
 
         List<Integer> stack = new ArrayList<>();
-        Set<Integer> visited = new HashSet<>();
+
+        Map<GraphNode<Integer>, State> buildState = new HashMap<>();
+        for(GraphNode<Integer> node : nodes){
+            buildState.put(node, State.UNBUILT);
+        }
 
         for(GraphNode<Integer> node : nodes){
-            if (visited.contains(node)) {
+
+            if(buildState.get(node) == State.BUILT){
                 continue;
             }
 
-            traverse(node, stack, visited);
+            boolean success = build(node, stack, buildState);
+
+            if(!success){
+                return "Graph Contains Cycle. Impossible to build";
+            }
 
         }
 
@@ -59,18 +70,36 @@ public class TopologicalSort {
         return stack.toString();
     }
 
-    private static void traverse(GraphNode<Integer> node, List<Integer> stack, Set<Integer> visited) {
+    private static boolean build(GraphNode<Integer> node, List<Integer> stack,
+                              Map<GraphNode<Integer>, State> buildState) {
 
-        if (visited.contains(node.getName())) {
-            return;
+        if(buildState.get(node) == State.BUILT){
+            return true;
         }
 
-        visited.add(node.getName());
+        if(buildState.get(node) == State.BUILDING){
+            return false;
+        }
 
+
+        buildState.put(node, State.BUILDING);
+        boolean success = true;
         for (GraphNode<Integer> childNode : node.getEdges()) {
-            traverse(childNode, stack, visited);
+            success = success && build(childNode, stack, buildState);
+            if(!success){
+                break;
+            }
         }
 
-        stack.add(node.getName());
+        if(success){
+            if(buildState.get(node) != State.BUILT){
+                buildState.put(node, State.BUILT);
+                stack.add(node.getName());
+            }
+        }
+
+        return success;
+
+
     }
 }
