@@ -27,32 +27,39 @@ public class TrappingWater {
         System.out.print(sb);
     }
 
-    private static int trappedWater(int[] blocks) {
+    private static int trappedWater(int[] height) {
 
-        assert blocks.length > 2;
-        int totalWater = 0;
-
-        int i = 0, j = blocks.length - 1,lmax = -1, rmax = -1;
-
-        while (i < j) {
-
-            lmax = Math.max(lmax, blocks[i]);
-            rmax = Math.max(rmax, blocks[j]);
-
-            if(lmax > rmax){
-                totalWater += rmax - blocks[j];
-                j--;
-            }else{
-
-                totalWater += lmax - blocks[i];
-                i++;
-            }
+        if(height == null || height.length == 0){
+            return 0;
         }
 
-        return totalWater;
+        int lmax = height[0];
+        int rmax = height[height.length - 1];
 
+        int left = 0;
+        int right = height.length - 1;
+        int water = 0;
 
+        while(left < right){
 
+            lmax = Math.max(lmax, height[left]);
+            rmax = Math.max(rmax, height[right]);
+
+            if(lmax <= rmax){
+
+                // the answer at A[i] will be lmax
+                // this is because even though rmax continues to increase,
+                // we are limited by the lmax value which is present at this
+                // point
+                water += lmax - height[left];
+                left++;
+            }else{
+                //the converse is true here
+                water += rmax - height[right];
+                right--;
+            }
+        }
+        return water;
     }
 
 }
