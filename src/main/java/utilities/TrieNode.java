@@ -5,10 +5,12 @@ import java.util.Map;
 
 public class TrieNode {
 
+    private final Character name;
     private int terminating;
     private final Map<Character, TrieNode> nodes;
 
-    public TrieNode() {
+    public TrieNode(Character name) {
+        this.name = name;
         terminating = 0;
         nodes = new HashMap<>();
     }
@@ -30,7 +32,7 @@ public class TrieNode {
 
     public void insertNode(Character ch) {
         if (!nodes.containsKey(ch)) {
-            nodes.put(ch, new TrieNode());
+            nodes.put(ch, new TrieNode(ch));
         }
     }
 
@@ -42,5 +44,9 @@ public class TrieNode {
         return nodes;
     }
 
+
+    public Character getName() {
+        return name;
+    }
 
 }

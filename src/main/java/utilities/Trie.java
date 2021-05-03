@@ -1,10 +1,11 @@
 package utilities;
 
+//TODO delete word
 public class Trie {
     private final TrieNode root;
 
     public Trie(){
-        root = new TrieNode();
+        root = new TrieNode('\0');
     }
 
     public void insertWord(String s) {
@@ -16,10 +17,8 @@ public class Trie {
             parent.insertNode(ch);
             parent = parent.getNextNode(ch);
 
-            if (i == s.length() - 1) {
-                parent.setTerminating(parent.getTerminating() + 1);
-            }
         }
+        parent.setTerminating(parent.getTerminating() + 1);
     }
 
     public boolean searchWord(String s) {
@@ -30,17 +29,11 @@ public class Trie {
             Character ch = s.charAt(i);
             parent = parent.getNextNode(ch);
             if (parent == null) {
-                break;
-            }
-
-            if (i == s.length() - 1) {
-                if (parent.getTerminating() > 0) {
-                    return true;
-                }
+                return false;
             }
         }
 
-        return false;
+        return parent.getTerminating() > 0;
     }
 
     public TrieNode getRoot() {

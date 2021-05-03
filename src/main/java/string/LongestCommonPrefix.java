@@ -1,5 +1,7 @@
 package string;
 
+import org.junit.Assert;
+import org.junit.Test;
 import utilities.Trie;
 import utilities.TrieNode;
 
@@ -7,11 +9,15 @@ import java.util.Map;
 
 public class LongestCommonPrefix {
 
-    public static void main(String[] args) {
+    @Test
+    public void lcpTest() {
+        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
         String[] words = {"geeksforgeeks", "geeks", "geek",  "geezer"};
-        System.out.println(getLongestCommonPrefix(words));
+        String result = "gee";
+        Assert.assertEquals(result, longestCommonPrefix.getLongestCommonPrefix(words));
     }
-    public static String getLongestCommonPrefix(String[] words) {
+
+    public String getLongestCommonPrefix(String[] words) {
 
         Trie trie = new Trie();
         for (String word : words) {
