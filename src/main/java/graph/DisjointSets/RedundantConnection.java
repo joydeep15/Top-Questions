@@ -1,4 +1,4 @@
-package DisjointSets;
+package graph.DisjointSets;
 
 //https://leetcode.com/problems/redundant-connection/
 public class RedundantConnection {

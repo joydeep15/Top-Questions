@@ -1,4 +1,4 @@
-package DisjointSets;
+package graph.DisjointSets;
 
 //TODO path compression
 public class DSU {
@@ -15,17 +15,25 @@ public class DSU {
         rank = new int[size];
     }
 
-    public int find(int node){
+    //find with path compression
+    int find(int node){
 
         int root = node;
-        while (parent[root] != root){
+        while(parent[root] != root){
             root = parent[root];
         }
-        return root;
+        //found parent
 
+        int iterator = node;
+        while(parent[iterator] != iterator){
+            int old = iterator;
+            iterator = parent[iterator];
+            parent[old] = root;
+        }
+        return root;
     }
 
-
+    //union weighted by rank
     public boolean union(int node1, int node2){
         int x_root = find(node1);
         int y_root = find(node2);
